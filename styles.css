@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    font-family: fantasy;
+    color: rgba(212, 16, 16, 0.842);
+}
+
+
+html body{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: block;
+}
+.nav a {
+    padding: 10em;
+    color: cornsilk;
+    text-decoration: none;
+}
+.nav a :hover{
+    background-color: rgb(75, 13, 25);
+}
+
+
+
+.main-header{
+
+    background-image: url("images/album10.jpg");
+    background-color: rgba(red, green, blue, alpha);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.band-namr-large{
+    font-size: 20em;
+}
+
+.content-section{
+    margin: 2em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding:0 1.5em;
+    ;
+}
+.section-header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-size: 1.4em;
+
+}
+.about-band-images{
+    float: left;
+    height:300px ;
+    width: 300px;
+    margin: 16px;
+    border-radius :49%;
+   
+}
+.main-footer{
+   background-color: blue;
+   color:cornsilk; 
+   padding : 0.23em 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 0.5em;
+}
+.footer-nav img{
+    width:30px;
+    height: 30px;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+
+}
+.btn-header{
+    margin: .5 15% 2em 15%;
+    color: chartreuse;
+    border:2px blueviolet ;
+    background-color:rgb(75, 13, 25) ;
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left:2em;
+    padding-right:2em;
+   
+}
+.btn-header:hover{
+    background-color: rgba(red, green, blue, alpha);
+
+}
+.btn-play{
+    margin: block;
+    display: auto;
+    color:blueviolet;
+    font-size:4em;
+    border-radius: 50%;
+    padding:0;
+    width:100px;
+    width:100px;
+}
